@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="libs/slick/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Gigacoder</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="logo">
+            <a href="#"><img src="images/logo.svg" class="logo" alt="logo"></a>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link active-link" href="#">О нас</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Направления</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Отзывы</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Новости</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Этапы</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Стоимость</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#" class="header__sign link">Пройти конкурс</a>
+          <button type="button" class="mobile-nav-button">
+            <span class="mobile-nav-button__icon"></span>
+          </button>
+        </div>
+      </div>
+      <div class="mobile-nav">
+        <nav class="mobile-nav-list">
+          <nav class="menu mobile-nav-button">
+            <ul class="menu__list">
+              <h3 class="link-font">Меню</h3>
+              <li class="menu__list-item">
+                <a class="menu__list-link active-link" href="#">О нас</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Направления</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Отзывы</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Новости</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Этапы</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Стоимость</a>
+              </li>
+            </ul>
+          </nav>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="contest">
+        <div class="container">
+          <div class="contest__wrapper">
+            <div class="contest__text">
+              <h1 class="contest__text-title">Преврати свою <span class="text-thin blue">страсть</span>
+                <span class="text-fatty">в карьеру </span><span class="text-fatty blue">мечты</span>
+              </h1>
+              <p class="contest__text-description">Обучение программированию и стажировка в крутейших проектах.</p>
+              <a class="button__contest button link">Пройти конкурс</a>
+            </div>
+            <div class="contest__image">
+              <img src="images/Hero-Wrapper.png" alt="bg-main">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="directions">
+        <div class="container">
+          <h3 class="directions__title">Направления</h3>
+        </div>
+        <div class="directions__container">
+          <div class="slider__item directions-flex">
+            <div class="slider__container bg-container">
+              <img src="images/directions-2.png" class="slider__container-icon" />
+              <h3 class="slider__container-title">Mobile App Игровая разработка</h3>
+              <p class="slider__container-description">Разработка компьютерных игр и интерактивных приложений с
+                использованием игровых движков, таких как Unity, Unreal Engine, Cocos2d и других.</p>
+            </div>
+          </div>
+          <div class="slider__item directions-flex">
+            <div class="slider__container bg-container">
+              <img src="images/directions-2.png" class="slider__container-icon" />
+              <h3 class="slider__container-title">Разработка мобильных приложений</h3>
+              <p class="slider__container-description">Создание мобильных приложений для iOS и Android, используя языки
+                программирования, такие как Swift, Java, Kotlin, React Native и Flutter.</p>
+            </div>
+          </div>
+          <div class="slider__item directions-flex">
+            <div class="slider__container bg-container">
+              <img src="images/directions-3.png" class="slider__container-icon" />
+              <h3 class="slider__container-title">Веб-разработка</h3>
+              <p class="slider__container-description">Разработка веб-сайтов и веб-приложений с использованием HTML,
+                CSS, JavaScript, PHP, Python, Ruby и других технологий.</p>
+            </div>
+          </div>
+          <div class="slider__item directions-flex">
+            <div class="slider__container bg-container">
+              <img src="images/directions-4.png" class="slider__container-icon" />
+              <h3 class="slider__container-title">Машинное обучение</h3>
+              <p class="slider__container-description">Разработка алгоритмов и моделей машинного обучения, практическое
+                применение технологий искусственного интеллекта в различных областях.</p>
+            </div>
+          </div>
+          <div class="slider__item directions-flex">
+            <div class="slider__container bg-container">
+              <img src="images/directions-4.png" class="slider__container-icon" />
+              <h3 class="slider__container-title">Базы данных и аналитика 5</h3>
+              <p class="slider__container-description">Разработка и управление базами данных, создание инструментов для
+                сбора и анализа данных, использование SQL, NoSQL и других технологий.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="project">
+        <div class="container">
+          <div class="project__wrapper">
+            <div class="project__title">
+              <h2 class="project__title-name">
+                <span class="project__title-one">Впервые</span> появилась возможность на стажировку на руководителя
+                <span class="project__title-two">проекта/разработки.</span>
+              </h2>
+              <button class="button__project button link btn-modal" id="open1">Отправить заявку</a>
+            </div>
+            <div class="project__container about">
+              <div class="about__info">
+                <p class="about__info-text text-replace">Мы становимся лучше, вместе <span
+                    class="interbold-text">объединяя
+                    старые знания
+                    и новые подходы </span></p>
+                <p class="about__info-description">
+                  GigaCoder гордится своими достижениями в предоставлении качественных стажировок. Мы имеем доказанный
+                  успех в подготовке и развитии молодых специалистов, которые затем успешно входят на рынок труда.
+                  Многие наши выпускники находят работу в крупных IT-компаниях и продолжают свою карьеру в области
+                  разработки.
+                </p>
+                <a href="#" class="about__info-link">
+                  <span>Прочитать подробнее</span>
+                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" class="red-arrow"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_8001_1010)">
+                      <path
+                        d="M16.172 11.1364L10.808 5.7724L12.222 4.3584L20 12.1364L12.222 19.9144L10.808 18.5004L16.172 13.1364H4V11.1364H16.172Z"
+                        fill="#013EF8" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_8001_1010">
+                        <rect width="24" height="24" fill="white" transform="translate(0 0.13623)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+              <div class="about__video">
+                <!-- <video width="601" height="484" controls="controls" poster="images/video.png">
+                  <source src="https://www.youtube.com/watch?v=maPRR_jjyOE" type='video/ogg; codecs="theora, vorbis"'>
+                  <source src="https://www.youtube.com/watch?v=maPRR_jjyOE"
+                    type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                  <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'> Тег video не поддерживается
+                  вашим браузером. -->
+                <iframe width="601" height="484" src="https://www.youtube.com/embed/maPRR_jjyOE"
+                  title="JavaScript для начинающих 2024. Полный курс за 6 часов. Уроки. Теория + практика"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- </video> -->
+              </div>
+            </div>
+      </section>
+      <section class="partners">
+        <div class="container">
+          <p class="partners__title">Наши партнеры
+            <br>
+            <span class="interbold-text">Студенты работают здесь</span>
+          </p>
+        </div>
+        <div class="partners__container">
+          <div class="slider__item partners__slider">
+            <div class="slider__container">
+              <img src="images/partner-0.png" class="partners__slider-img" alt="brand" />
+            </div>
+          </div>
+          <div class="slider__item partners__slider">
+            <div class="slider__container">
+              <img src="images/parther-1.png" class="partners-two partners__slider-img" />
+            </div>
+          </div>
+          <div class="slider__item partners__slider">
+            <div class="slider__container">
+              <img src="images/parther-2.png" class="partners__slider-img" alt="brand" />
+            </div>
+          </div>
+          <div class="slider__item partners__slider">
+            <div class="slider__container">
+              <img src="images/parther-3.png" class="partners__slider-img" alt="brand" />
+            </div>
+          </div>
+          <div class="slider__item partners__slider">
+            <div class="slider__container">
+              <img src="images/partner-4.png" class="partners__slider-img" alt="brand" />
+            </div>
+          </div>
+          <div class="slider__item partners__slider">
+            <div class="slider__container">
+              <img src="images/parther-5.png" class="partners__slider-img" alt="brand" />
+            </div>
+          </div>
+          <div class="slider__item partners__slider">
+            <div class="slider__container">
+              <img src="images/parther-6.png" class="partners__slider-img" alt="brand" />
+            </div>
+          </div>
+          <div class="slider__item partners__slider">
+            <div class="slider__container">
+              <img src="images/parther-7.png" class="partners__slider-img" alt="brand" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="students">
+        <div class="container">
+          <p class="students__title title">Почему студентам нравится
+            <br>
+            <span class="interbold-text">развиваться с нами
+            </span>
+          </p>
+          <div class="students__container">
+            <div class="students__wrap">
+              <div class="slider__item">
+                <div class="students__wrap-item">
+                  <div class="students-square"></div>
+                  <div class="students__blog">
+                    <div class="students__blog-star">
+                      <img src="images/star.png" alt="star" />
+                      <img src="images/star.png" alt="star" />
+                      <img src="images/star.png" alt="star" />
+                      <img src="images/star.png" alt="star" />
+                      <img src="images/star (1).png" alt="star" />
+                    </div>
+                    <p class="students__blog-text">сразу хочу обратить внимание, что отвечать на звонки и
+                      доставлять
+                      заказ следует без опозданий(( может для кого-то 15 минут немного, а для меня это на весь день
+                      выбиться из моего графика, Подруга нашла классного тренера в фитнес-зале, к которому очередь на
+                      несколько месяцев вперед. а у него как раз два места. Справка нужна быстро - промедлишь и устанешь
+                      ждать. Спасибо, что нам помогли. Ходим на тренировки, все супер))
+                    </p>
+                    <div class="students__blog-wrap">
+                      <h4 class="students__blog-name">Алька Иванов</h4>
+                      <h5 class="students__blog-description">25 год </h5>
+                    </div>
+                    <img src="images/photo.png" class="students__blog-photo" alt="person" />
+                    <img src="images/students-photo1.png" class="students__blog-photo1" alt="person" />
+                    <div class="students__blog-container">
+                      <h4 class="students__blog-title">Анна Сергеевна</h4>
+                      <h5 class="students__blog-subtitle">41 год </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="students__wrap-item">
+                  <div class="students-square"></div>
+                  <div class="students__blog">
+                    <div class="students__blog-star">
+                      <img src="images/star.png" alt="star" />
+                      <img src="images/star.png" alt="star" />
+                      <img src="images/star.png" alt="star" />
+                      <img src="images/star.png" alt="star" />
+                      <img src="images/star (1).png" alt="star" />
+                    </div>
+                    <p class="students__blog-text">222222сразу хочу обратить внимание, что отвечать на звонки и
+                      доставлять
+                      заказ следует без опозданий(( может для кого-то 15 минут немного, а для меня это на весь день
+                      выбиться из моего графика, Подруга нашла классного тренера в фитнес-зале, к которому очередь на
+                      несколько месяцев вперед. а у него как раз два места. Справка нужна быстро - промедлишь и устанешь
+                      ждать. Спасибо, что нам помогли. Ходим на тренировки, все супер))
+                    </p>
+                    <div class="students__blog-wrap">
+                      <h4 class="students__blog-name">Алька Иванов</h4>
+                      <h5 class="students__blog-description">25 год </h5>
+                    </div>
+                    <img src="images/photo.png" class="students__blog-photo" alt="person" />
+                    <img src="images/students-photo1.png" class="students__blog-photo1" alt="person" />
+                    <div class="students__blog-container">
+                      <h4 class="students__blog-title">Анна Сергеевна</h4>
+                      <h5 class="students__blog-subtitle">41 год </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="students__wrap students-none">
+              <div class="slider__item">
+                <div class="students__wrap-item">
+                  <div class="students-square"></div>
+                  <div class="students__blog">
+                    <div class="students__blog-star">
+                      <img src="images/star.png" alt="star" />
+                      <img src="images/star.png" alt="star" />
+                      <img src="images/star.png" alt="star" />
+                      <img src="images/star.png" alt="star" />
+                      <img src="images/star (1).png" alt="star" />
+                    </div>
+                    <p class="students__blog-text">33333сразу хочу обратить внимание, что отвечать на звонки и
+                      доставлять
+                      заказ следует без опозданий(( может для кого-то 15 минут немного, а для меня это на весь день
+                      выбиться из моего графика, Подруга нашла классного тренера в фитнес-зале, к которому очередь на
+                      несколько месяцев вперед. а у него как раз два места. Справка нужна быстро - промедлишь и устанешь
+                      ждать. Спасибо, что нам помогли. Ходим на тренировки, все супер))
+                    </p>
+                    <div class="students__blog-wrap">
+                      <h4 class="students__blog-name">Алька Иванов</h4>
+                      <h5 class="students__blog-description">25 год </h5>
+                    </div>
+                    <img src="images/photo.png" class="students__blog-photo" alt="person" />
+                    <img src="images/students-photo1.png" class="students__blog-photo1" alt="person" />
+                    <div class="students__blog-container">
+                      <h4 class="students__blog-title">Анна Сергеевна</h4>
+                      <h5 class="students__blog-subtitle">41 год </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="students__wrap-item">
+                  <div class="students-square"></div>
+                  <div class="students__blog">
+                    <div class="students__blog-star">
+                      <img src="images/star.png" alt="star" />
+                      <img src="images/star.png" alt="star" />
+                      <img src="images/star.png" alt="star" />
+                      <img src="images/star.png" alt="star" />
+                      <img src="images/star (1).png" alt="star" />
+                    </div>
+                    <p class="students__blog-text">44444сразу хочу обратить внимание, что отвечать на звонки и
+                      доставлять
+                      заказ следует без опозданий(( может для кого-то 15 минут немного, а для меня это на весь день
+                      выбиться из моего графика, Подруга нашла классного тренера в фитнес-зале, к которому очередь на
+                      несколько месяцев вперед. а у него как раз два места. Справка нужна быстро - промедлишь и устанешь
+                      ждать. Спасибо, что нам помогли. Ходим на тренировки, все супер))
+                    </p>
+                    <div class="students__blog-wrap">
+                      <h4 class="students__blog-name">Fндрей Петров</h4>
+                      <h5 class="students__blog-description">34 год </h5>
+                    </div>
+                    <img src="images/photo.png" class="students__blog-photo" alt="person" />
+                    <img src="images/students-photo1.png" class="students__blog-photo1" alt="person" />
+                    <div class="students__blog-container">
+                      <h4 class="students__blog-name">Анна Сергеевна</h4>
+                      <h5 class="students__blog-description">41 год </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="work">
+        <div class="container">
+          <h3 class="work__title title">Как они<br> <span class="interbold-text">это сделали</span></h3>
+          <div class="work__aplication blog">
+            <div class="blog__list">
+              <div class="blog__item order-1 reveal box-1">
+                <span class="blog__item-number">#1</span> <span class="blog__item-name">Оставили заявку</span>
+                <p class="blog__item-description">Они подали заявку на участие в программе разработки, проявляя интерес
+                  к получению опыта и знаний в данной области.</p>
+              </div>
+              <div class="blog__item order-3 reveal box-2">
+                <span class="blog__item-number">#3</span> <span class="blog__item-name">Прошли собеседование</span>
+                <p class="blog__item-description">Успешно прошли собеседование, где имели возможность показать свой
+                  потенциал и мотивацию для развития в сфере разработки.</p>
+              </div>
+              <div class="blog__item order-5 reveal box-6">
+                <span class="blog__item-number">#5</span> <span class="blog__item-name interbold-text">Сделали
+                  проект</span>
+                <p class="blog__item-description text-width">Воплотили свои знания и навыки в реальном проекте,
+                  демонстрируя свою способность к самостоятельной разработке и решению задач.</p>
+              </div>
+              <div class="blog__images">
+                <img src="images/lines.png" alt="lines" />
+              </div>
+              <div class="blog__item order-2 reveal box-3">
+                <span class="blog__item-number">#2</span> <span class="blog__item-name">Прошли тестирование</span>
+                <p class="blog__item-description">Успешно прошли тестирование, демонстрируя свои навыки и понимание в
+                  области разработки.</p>
+              </div>
+              <div class="blog__item order-4 reveal box-4">
+                <span class="blog__item-number">#4</span> <span class="blog__item-name">Прошли обучение</span>
+                <p class="blog__item-description">Получили качественное обучение, осваивая ключевые концепции и
+                  технологии разработки, под руководством специалистов.</p>
+              </div>
+              <div class="blog__item order-6 reveal box-5">
+                <span class="blog__item-number">#6 </span> <span class="blog__item-name">Нашли работу мечты</span>
+                <p class="blog__item-description">После завершения работы над проектом. 91% стажеров нашли работу
+                  мечты в области разработки.</p>
+              </div>
+            </div>
+          </div>
+          <h3 class="work__bottom-text">
+            <span class="weight-light">Ты</span>
+            <span class="weight-italic">сможешь</span>
+            <span class="weight-semibold ml">также</span><br>
+            <span class="weight-semibold line-height">Мы</span>
+            <span class="weight-light line-height">тебе</span>
+            <span class="weight-italic line-height">поможем</span>
+          </h3>
+          <div class="internship">
+            <h3 class="intership__title title">
+              Мы подходим друг другу<br>
+              <span class="interbold-text">если вы:</span>
+            </h3>
+            <div class="internship__wrap">
+              <ul class="internship__list">
+                <li class="internship__item">Готовы создавать тренды и
+                  <br> развивать E-com в странах СНГ и за границей
+                </li>
+                <li class="internship__item">Готовы стажироваться от 2-х
+                  <br> месяцев и от 28-ми часов в неделю
+                </li>
+                <li class="internship__item">Вам свойственны следующие личностные качества: целеустремленность,
+                  инициативность и самостоятельность</li>
+              </ul>
+              <h3 class="internship__name">
+                <span class="interboldi-text reveal1 box-one">IT’S A</span><br>
+                <span class="interboldextrai-text reveal1 box-one">MATCH!</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="work-line"></div>
+      </section>
+      <section class="price">
+        <div class="container">
+          <h3 class="price__title title">
+            Сколько<br>
+            <span class="interbold-text">это стоит</span>
+          </h3>
+          <div class="price__info">
+            <h4 class="price__info-name">20% СРАЗУ<br><span class="weight-semibold price-sales">
+                80% ПОСЛЕ ТРУДОУСТРОЙСТВА</span></h4>
+          </div>
+          <div class="price__education">
+            <div class="price__education-number">
+              <h3>1990</h3>
+            </div>
+            <div class="price__text">
+              <p class="price__education-text">Профильное обучение: Стажеры получают специализированное обучение для
+                работы в выбранной области разработки.</p>
+              <p class="price__education-text">Интересный проект в портфолио: Стажеры работают над проектом, который
+                будет ценным образцом их работы для будущих работодателей.</p>
+              <p class="price__education-text">Помощь в трудоустройстве в топовую компанию: Компания помогает стажерам
+                найти работу в топовых компаниях с помощью рекомендаций и контактов</p>
+            </div>
+          </div>
+          <button class="price__button button link btn-modal" id="open2">Отправить заявку</a>
+        </div>
+      </section>
+      <section class=" questions">
+        <div class="container">
+          <h3 class="questions__title title">
+            Частые
+            <br>
+            <span class="interbold-text">Вопросы</span>
+          </h3>
+          <div class="info-div">
+            <div class="bg">
+              <div class="usefull-links">Можно стажироваться в любом городе?<i class="flaticon-down-arrow">
+                  <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M0.454505 0.829505C0.893845 0.390165 1.60616 0.390165 2.0455 0.829505L8 6.78401L13.9545 0.829505C14.3938 0.390165 15.1062 0.390165 15.5455 0.829505C15.9848 1.26884 15.9848 1.98116 15.5455 2.4205L8.7955 9.1705C8.35616 9.60983 7.64384 9.60983 7.2045 9.1705L0.454505 2.4205C0.015165 1.98116 0.015165 1.26884 0.454505 0.829505Z"
+                      fill="#013EF8" />
+                  </svg>
+                </i></div>
+              <div class="links">
+                <p>
+                  Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of
+                  different
+                  medical therapies that utilize stem cells in some form to treat a patient. Sometimes the term is
+                  used
+                  incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to refer to
+                  stem
+                  cell transplants, also known as bone marrow transplants.<br>
+
+                  <br>Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult
+                  stem
+                  cells
+                  and other potentially regenerative cells are harvested from a tissue sample of either fat or bone
+                  marrow
+                  taken from the patient. These concentrated regenerative cells are then used to treat specific
+                  injuries
+                  typically by injecting them into the afflicted area. It should be said that this type of stem cell
+                  therapy is currently not FDA approved and clinics performing it illegally in the US or in other
+                  countries perform various versions of the procedure to treat illnesses and injuries with little to
+                  no
+                  clinical evidence.<br>
+                </p>
+              </div>
+            </div>
+            <div class="bg">
+              <div class="usefull-links">Какие требования для стажировки?<i class="flaticon-down-arrow">
+                  <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M0.454505 0.829505C0.893845 0.390165 1.60616 0.390165 2.0455 0.829505L8 6.78401L13.9545 0.829505C14.3938 0.390165 15.1062 0.390165 15.5455 0.829505C15.9848 1.26884 15.9848 1.98116 15.5455 2.4205L8.7955 9.1705C8.35616 9.60983 7.64384 9.60983 7.2045 9.1705L0.454505 2.4205C0.015165 1.98116 0.015165 1.26884 0.454505 0.829505Z"
+                      fill="#013EF8" />
+                  </svg>
+                </i></div>
+              <div class="links">
+                <p>
+                  Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of
+                  different
+                  medical therapies that utilize stem cells in some form to treat a patient. Sometimes the term is
+                  used
+                  incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to refer to
+                  stem
+                  cell transplants, also known as bone marrow transplants.<br>
+
+                  <br>Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult
+                  stem
+                  cells
+                  and other potentially regenerative cells are harvested from a tissue sample of either fat or bone
+                  marrow
+                  taken from the patient. These concentrated regenerative cells are then used to treat specific
+                  injuries
+                  typically by injecting them into the afflicted area. It should be said that this type of stem cell
+                  therapy is currently not FDA approved and clinics performing it illegally in the US or in other
+                  countries perform various versions of the procedure to treat illnesses and injuries with little to
+                  no
+                  clinical evidence.<br>
+                </p>
+              </div>
+            </div>
+            <div class="bg">
+              <div class="usefull-links">Можно ли совмещать с учебой?<i class="flaticon-down-arrow">
+                  <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M0.454505 0.829505C0.893845 0.390165 1.60616 0.390165 2.0455 0.829505L8 6.78401L13.9545 0.829505C14.3938 0.390165 15.1062 0.390165 15.5455 0.829505C15.9848 1.26884 15.9848 1.98116 15.5455 2.4205L8.7955 9.1705C8.35616 9.60983 7.64384 9.60983 7.2045 9.1705L0.454505 2.4205C0.015165 1.98116 0.015165 1.26884 0.454505 0.829505Z"
+                      fill="#013EF8" />
+                  </svg>
+                </i></div>
+              <div class="links">
+                <p>
+                  Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of
+                  different
+                  medical therapies that utilize stem cells in some form to treat a patient. Sometimes the term is
+                  used
+                  incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to refer to
+                  stem
+                  cell transplants, also known as bone marrow transplants.<br>
+
+                  <br>Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult
+                  stem
+                  cells
+                  and other potentially regenerative cells are harvested from a tissue sample of either fat or bone
+                  marrow
+                  taken from the patient. These concentrated regenerative cells are then used to treat specific
+                  injuries
+                  typically by injecting them into the afflicted area. It should be said that this type of stem cell
+                  therapy is currently not FDA approved and clinics performing it illegally in the US or in other
+                  countries perform various versions of the procedure to treat illnesses and injuries with little to
+                  no
+                  clinical evidence.<br>
+
+                </p>
+              </div>
+            </div>
+            <div class="bg">
+              <div class="usefull-links">Как будет проходить отбор?<i class="flaticon-down-arrow">
+                  <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M0.454505 0.829505C0.893845 0.390165 1.60616 0.390165 2.0455 0.829505L8 6.78401L13.9545 0.829505C14.3938 0.390165 15.1062 0.390165 15.5455 0.829505C15.9848 1.26884 15.9848 1.98116 15.5455 2.4205L8.7955 9.1705C8.35616 9.60983 7.64384 9.60983 7.2045 9.1705L0.454505 2.4205C0.015165 1.98116 0.015165 1.26884 0.454505 0.829505Z"
+                      fill="#013EF8" />
+                  </svg>
+                </i></div>
+              <div class="links">
+                <p>
+                  Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of
+                  different
+                  medical therapies that utilize stem cells in some form to treat a patient. Sometimes the term is
+                  used
+                  incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to refer to
+                  stem
+                  cell transplants, also known as bone marrow transplants.<br>
+
+                  <br>Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult
+                  stem
+                  cells
+                  and other potentially regenerative cells are harvested from a tissue sample of either fat or bone
+                  marrow
+                  taken from the patient. These concentrated regenerative cells are then used to treat specific
+                  injuries
+                  typically by injecting them into the afflicted area. It should be said that this type of stem cell
+                  therapy is currently not FDA approved and clinics performing it illegally in the US or in other
+                  countries perform various versions of the procedure to treat illnesses and injuries with little to
+                  no
+                  clinical evidence.<br>
+                </p>
+              </div>
+            </div>
+            <div class="bg">
+              <div class="usefull-links">Сколько направлений можно выбрать?<i class="flaticon-down-arrow">
+                  <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M0.454505 0.829505C0.893845 0.390165 1.60616 0.390165 2.0455 0.829505L8 6.78401L13.9545 0.829505C14.3938 0.390165 15.1062 0.390165 15.5455 0.829505C15.9848 1.26884 15.9848 1.98116 15.5455 2.4205L8.7955 9.1705C8.35616 9.60983 7.64384 9.60983 7.2045 9.1705L0.454505 2.4205C0.015165 1.98116 0.015165 1.26884 0.454505 0.829505Z"
+                      fill="#013EF8" />
+                  </svg>
+                </i></div>
+              <div class="links">
+                <p>
+                  Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of
+                  different
+                  medical therapies that utilize stem cells in some form to treat a patient. Sometimes the term is
+                  used
+                  incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to refer to
+                  stem
+                  cell transplants, also known as bone marrow transplants.<br>
+
+                  <br>Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult
+                  stem
+                  cells
+                  and other potentially regenerative cells are harvested from a tissue sample of either fat or bone
+                  marrow
+                  taken from the patient. These concentrated regenerative cells are then used to treat specific
+                  injuries
+                  typically by injecting them into the afflicted area. It should be said that this type of stem cell
+                  therapy is currently not FDA approved and clinics performing it illegally in the US or in other
+                  countries perform various versions of the procedure to treat illnesses and injuries with little to
+                  no
+                  clinical evidence.<br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section class="news">
+        <div class="container">
+          <p class="news__title title">Наши
+            <br>
+            <span class="interbold-text">Новости</span>
+          </p>
+        </div>
+        <div class="news__container">
+          <div class="slider__item news__slider">
+            <div class="slider__container">
+              <img src="images/news-1.png" alt="news" />
+              <p class="slider__container-text">How to Build a Scalable Application up to 1 Million Users on AWS</p>
+              <a href="#" class="slider__container-images">
+                <span>Читать</span>
+                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" class="red-arrow"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_8069_134)">
+                    <path
+                      d="M16.172 11.4997L10.808 6.13568L12.222 4.72168L20 12.4997L12.222 20.2777L10.808 18.8637L16.172 13.4997H4V11.4997H16.172Z"
+                      fill="#013EF8" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_8069_134">
+                      <rect width="24" height="24" fill="white" transform="translate(0 0.5)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="slider__item news__slider">
+            <div class="slider__container">
+              <img src="images/news-2.png" alt="news" />
+              <p class="slider__container-text">How to Build a Scalable Application up to 1 Million Users on AWS</p>
+              <a href="#" class="slider__container-images">
+                <span>Читать</span>
+                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" class="red-arrow"
+                  xmlns="http://www.w3.org/2000/svg" class="red-arrow">
+                  <g clip-path="url(#clip0_8069_134)">
+                    <path
+                      d="M16.172 11.4997L10.808 6.13568L12.222 4.72168L20 12.4997L12.222 20.2777L10.808 18.8637L16.172 13.4997H4V11.4997H16.172Z"
+                      fill="#013EF8" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_8069_134">
+                      <rect width="24" height="24" fill="white" transform="translate(0 0.5)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="slider__item news__slider">
+            <div class="slider__container">
+              <img src="images/news-3.png" alt="news" />
+              <p class="slider__container-text">How to Build a Scalable Application up to 1 Million Users on AWS</p>
+              <a href="#" class="slider__container-images">
+                <span>Читать</span>
+                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" class="red-arrow"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_8069_134)">
+                    <path
+                      d="M16.172 11.4997L10.808 6.13568L12.222 4.72168L20 12.4997L12.222 20.2777L10.808 18.8637L16.172 13.4997H4V11.4997H16.172Z"
+                      fill="#013EF8" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_8069_134">
+                      <rect width="24" height="24" fill="white" transform="translate(0 0.5)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="slider__item news__slider">
+            <div class="slider__container">
+              <img src="images/news-4.png" alt="news" />
+              <p class="slider__container-text">How to Build a Scalable Application up to 1 Million Users on AWS</p>
+              <a href="#" class="slider__container-images">
+                <span>Читать</span>
+                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" class="red-arrow"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_8069_134)">
+                    <path
+                      d="M16.172 11.4997L10.808 6.13568L12.222 4.72168L20 12.4997L12.222 20.2777L10.808 18.8637L16.172 13.4997H4V11.4997H16.172Z"
+                      fill="#013EF8" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_8069_134">
+                      <rect width="24" height="24" fill="white" transform="translate(0 0.5)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="slider__item news__slider">
+            <div class="slider__container">
+              <img src="images/news-5.png" alt="news" />
+              <p class="slider__container-text">How to Build a Scalable Application up to 1 Million Users on AWS</p>
+              <a href="#" class="slider__container-images">
+                <span>Читать</span>
+                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" class="red-arrow"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_8069_134)">
+                    <path
+                      d="M16.172 11.4997L10.808 6.13568L12.222 4.72168L20 12.4997L12.222 20.2777L10.808 18.8637L16.172 13.4997H4V11.4997H16.172Z"
+                      fill="#013EF8" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_8069_134">
+                      <rect width="24" height="24" fill="white" transform="translate(0 0.5)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sending">
+        <div class="container">
+          <div class="sending__wrap">
+            <p class="sending__wrap-info"><span class="interbold-text">Остались вопросы?<br></span>
+              <span class="intmedium-text"> Мы с радостью на них ответим</span>
+            </p>
+            <div class="sending__button">
+              <a href="" class="sending__button-link interbold-text">Задай их здесь</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrap company">
+          <div class="company__container">
+            <div class="footer__blog">
+              <div class="footer__logo">
+                <a href="#"><img src="images/logo.svg" class="logo" alt="logo"></a>
+              </div>
+              <p class="company__container-text">Компания предоставляющая обучение и стажировку с 2019 года</p>
+            </div>
+            <div class="social__container-list">
+              <div class="social__container-item">
+                <a href="#" class="social__container-link">
+                  <img src="images/facebook.svg" alt="facebook" />
+                </a>
+              </div>
+              <div class="social__container-item">
+                <a href="" class="social__container-link">
+                  <img src="images/instagramm.svg" alt="instagramm" />
+                </a>
+              </div>
+              <div class="social__container-item">
+                <a href="" class="social__container-link">
+                  <img src="images/vk.svg" alt="vk" /></a>
+                </a>
+              </div>
+              <div class="social__container-item">
+                <a href="" class="social__container-link">
+                  <img src="images/in.svg" alt="in" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+      <div class="footer__copyright">© 2023</div>
+      <!-- //popup -->
+      <div class="popup hidden">
+        <form class="form content order-form" action="../../send.php" method="post">
+          <h3 class="form__title">Оставить заявку</h3>
+          <p class="form__text">Заполните все поля и мы с вами свяжемся ближайшее время</p>
+          <a class="close">
+            <img src="images/close.svg">
+          </a>
+          <div class="inputBox">
+            <input id="GET-name" type="text" name="name" value="Ваше имя" class="form__input"
+              onfocus="clearField(this);" />
+          </div>
+          <div class=" inputBox">
+            <input id="GET-name" type="text" name="name" type="text" value="Ваш телеграм или вотсап" class="form__input"
+              onfocus="clearField(this);" />
+          </div>
+          <div class="inputBox">
+            <input id="GET-name" type="text" name="name" type="text" value="Стек который которому хотите научиться?"
+              class="form__input" onfocus="clearField(this);" />
+          </div>
+          <div class="inputBox">
+            <input id="GET-name" type="text" name="name" type="text" value="Какой сейчас опыт?" class="form__input"
+              onfocus="clearField(this);" />
+          </div>
+          <input type="submit" value="Отправить" class="input__button" />
+        </form>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="https://yandex.st/jquery/2.1.1/jquery.min.js"></script>
+    <script src="libs/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>
