@@ -188,7 +188,6 @@
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </section>
@@ -680,6 +679,54 @@
       <div class="footer-line"></div>
       <div class="footer__copyright">© 2023</div>
     </footer>
+
+
+
+
+    <section class="stack">
+      <div class="container">
+        <p class="stack__title title">
+          <?php the_field('sec4_title'); ?>
+        </p>
+        <div class="stack__blog">
+          <ul class="stack__list">
+            <?php if(get_field('sec3_repeater')): $i = 0; ?>
+            <?php while(has_sub_field('sec3_repeater')) : $i++; ?>
+            <li class="stack__item stack-active">
+              <?php echo $i; ?>
+              <?php the_sub_field('sec3_repeater_title'); ?>
+            </li>
+            <?php endwhile; ?>
+            <?php endif; ?>
+          </ul>
+          <div class="tabs__content stack__blog container-stack">
+            <?php if(get_field('sec3_repeater')): $i = 0; ?>
+            <?php while(has_sub_field('sec3_repeater')) :  $i++; ?>
+            <div class="tabs<?php echo $i; ?>" <?php if(get_field('sec3_repeater_stack')): ?>
+              <?php while(has_sub_field('sec3_repeater_stack')) : ?>
+              <div class="stack__wrap">
+                <img src="<?php the_sub_field('sec3_repeater_stack_img1'); ?>" alt="nodejs" />
+                <img src="<?php the_sub_field('sec3_repeater_stack_img2'); ?>" alt="php" />
+                <img src="<?php the_sub_field('sec3_repeater_stack_img3'); ?>" alt="php" />
+                <img src="<?php the_sub_field('sec3_repeater_stack_img4'); ?>" alt="php" />
+                <img src="<?php the_sub_field('sec3_repeater_stack_img5'); ?>" alt="php" />
+              </div>
+              <?php endwhile; ?>
+              <?php endif; ?>
+              <?php if(get_field('sec3_repeater_stack1')): ?>
+              <?php while(has_sub_field('sec3_repeater_stack1')) : ?>
+              <div class="stack__wrap-two">
+                <img src="<?php the_sub_field('sec3_repeater_stack1_img1'); ?>" alt="python" />
+                <img src="<?php the_sub_field('sec3_repeater_stack1_img2'); ?>" alt="rails" />
+              </div>
+              <?php endwhile; ?>
+              <?php endif; ?>
+              <?php endwhile; ?>
+              <?php endif; ?>
+            </div>
+          </div>
+        </div>
+    </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
     </script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
